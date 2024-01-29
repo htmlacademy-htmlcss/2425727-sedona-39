@@ -2,6 +2,7 @@
 
 * Студент: [Олег Галкин](https://up.htmlacademy.ru/htmlcss/39/user/2425727).
 * Наставник: `Неизвестно`.
+* Сайт: [Мой проект Седона](https://github.com/Shtein365/2425727-sedona-39/settings/pages).
 
 ---
 
