@@ -2,7 +2,7 @@
 
 * Студент: [Олег Галкин](https://up.htmlacademy.ru/htmlcss/39/user/2425727).
 * Наставник: [Андрей Грачев](https://htmlacademy.ru/profile/angra).
-* Сайт: [Мой проект Седона](https://github.com/Shtein365/2425727-sedona-39/settings/pages).
+* Сайт: [Мой проект Седона](https://github.com/Shtein365/2425727-sedona-39).
 
 ---
 
