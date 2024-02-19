@@ -65,15 +65,11 @@ body {
 
 .subscribe-subscribe-theme-custom {
   text-align: center;
-} 
-
-.main-subscribe {
-  background-image: url("../images/subscribe.jpg");
+  background-color: #000000;
+  background-image: url(../images/follow-background.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
-  color: #ffffff;
-  background-color: #999387;
-}
+  background-size: 100% auto;
+} 
 
 .main-subscribe .main-title {
   color: #fff;
