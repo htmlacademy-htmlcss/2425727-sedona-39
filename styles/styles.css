@@ -81,4 +81,128 @@ body {
   color: #000;
   text-decoration: none;
 }
+.inner-header{
+  color: #ffffff;
+  background-color: #333333;
+  background-image: url(../images/follow-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.filters-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.filters-breadcrumbs a {
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.filters-group-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.control-input {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.filters-window-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border: none;
+  color: #ffffff;
+  background-color: transparent;
+}
+
+.action {
+  background-color: #82B3D3;
+}
+
+.search-gallery-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.select-control {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.catalog-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.catalog-item-price {
+  text-align: right;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  text-decoration: none;
+}
+
+.catalog-item-button-detailed {
+  background-color: #756157;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.catalog-item-button-like {
+  background-color: #82B3D3;
+}
+
+.in-favorites {
+  border-color: #7DB54F;
+  color: #ffffff;
+}
+
+.score {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.paganation-link {
+  background-color: #82B3D3;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+}
+.pagination-current {
+  color: #000000;
+}
 	  
