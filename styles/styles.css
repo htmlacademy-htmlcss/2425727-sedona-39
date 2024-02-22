@@ -15,6 +15,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -37,8 +40,9 @@ body {
     background-size: cover;
     text-align: center;
 }
- .gallery {
-  text-align: center;
+
+.gallery {
+    text-align: center;
 }
 
 .gallery-item-one {
@@ -49,17 +53,24 @@ body {
     background: #82B3D3;
 }
 
-.galle-
-
 .main-description {
   font-size: 22px;
   line-height: 26px;
 }
+
 .advantages {
-  text-align: center;
+    text-align: center;
 }
 
-.advantages-list-title {
+.advantages-list {
+  text-align: center;
+   display: flex;
+  justify-content: space-between; 
+  margin: 0;
+  padding: 0;
+}
+
+.advantages-list-title{
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -76,8 +87,6 @@ body {
   background-color: #000000;
   background-image: url(../images/follow-background.jpg);
   background-repeat: no-repeat;
-  width: 1200;
-  height: 415;
 } 
 
 .main-subscribe .main-title {
@@ -217,5 +226,40 @@ body {
 
 .subscribe-theme-custom {
     text-align: center;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+
+.navigation {
+  display: flex;
+  width: 878px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  width: 639px;
+}
+
+.navigation-list-user {
+  max-width: 250px;
+  margin-left: auto;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-item {
+  width: 400px;
 }
 	  
