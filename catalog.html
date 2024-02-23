@@ -8,12 +8,12 @@
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a class="navigation-logo" href="index.html">
+        <a class="navigation-logo" href="#">
           <img class="page-header-logo" src="images/logo-header.svg" alt="Логотип Седоны" width="140" height="70">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
+            <a href="#" class="navigation-link navigation-link-current">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
@@ -21,20 +21,20 @@
           <li class="navigation-item">
             <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
+        </ul>
+        <ul class="navigation-list-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Поиск</a>
+            <a class="navigation-link" href="#">Поиск</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Избранное</a>
+            <a class="navigation-link" href="#">Избранное</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Хочу сюда</a>
+            <a class="navigation-link" href="#">Хочу сюда</a>
           </li>
         </ul>
       </nav>
-    </header>
     <main class="main-inner">
-      <h1>Гостиницы Седоны</h1>
       <ul class="navigation-list">
           <li class="navigation-item">
             <a class="navigation-link navigation-link-current" href="index.html">Главная</a>
@@ -43,7 +43,8 @@
             <a class="navigation-link navigation-link-current" href="index.html">Гостиницы</a>
           </li>
       </ul>
-    <section class="inner-header">>
+    <section class="inner-header">
+      <h1>Гостиницы Седоны</h1>
       <form action="https://echo.htmlacademy.ru/" class="hotels-filter-form" method="get">
         <fieldset class="hotels-filter-group">
           <legend class="control">Инфраструктура:</legend>
@@ -87,7 +88,7 @@
     </section>
     <section class="hotels-list">
       <p>
-        Найдено гостиниц: <span class="number-hotels">38</span>
+        <h2>Найдено гостиниц:38</h2>
       </p>
       <select class="select-control" aria-label="Сортировка">
         <option value="cheap">Сначала дешевые</option>
@@ -103,6 +104,7 @@
       <a class="view-button-list">
         <span class="visually-hidden">Вид список</span>
       </a>
+    </section>
       <ul class="hotels-list">
         <li class="hotels-item">
           <h3>Amara Resort & Spa</h3>
@@ -144,7 +146,7 @@
           <div class="stars"></div>
           <p class="hotel-rating">Рейтинг:<span>5,0</span></p>
         </li>
-      </ul>
+     </ul>
     <ul class="pagination">
       <li class="pagination-item">
         <a class="pagination-link pagination-current">1</a>
