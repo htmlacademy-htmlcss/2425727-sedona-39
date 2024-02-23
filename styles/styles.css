@@ -41,8 +41,10 @@ body {
     text-align: center;
 }
 
-.gallery {
+.gallery-home {
     text-align: center;
+    display: flex;
+
 }
 
 .gallery-item-one {
@@ -84,7 +86,8 @@ body {
 
 .subscribe-subscribe-theme-custom {
   text-align: center;
-  background-color: #000000;
+  height: 414px;
+  background-color: #b8aaaa;
   background-image: url(../images/follow-background.jpg);
   background-repeat: no-repeat;
 } 
@@ -234,7 +237,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 878px;
+  width: 1006px;
   margin: 0 auto;
 }
 
@@ -262,4 +265,5 @@ body {
 .advantages-item {
   width: 400px;
 }
+	  
 	  
