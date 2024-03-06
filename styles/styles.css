@@ -371,7 +371,7 @@ body {
 
 /* Блок подписки */
 .special-main-subscribe {
-  background-image: url("images/follow-background.jpg");
+  background-image: url("../images/favorite.svg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
