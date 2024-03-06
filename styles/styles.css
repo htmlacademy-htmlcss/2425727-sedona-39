@@ -160,7 +160,7 @@ body {
 
 /* блок-герой  */
 .hero-section {
-  background-image: url("../images/hero-background.jpg");
+  background-image: url("../images/welcome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #bcdfe4;
@@ -371,7 +371,7 @@ body {
 
 /* Блок подписки */
 .special-main-subscribe {
-  background-image: url("../images/subscribe.jpg");
+  background-image: url("images/follow-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
