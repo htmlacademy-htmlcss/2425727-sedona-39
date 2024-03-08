@@ -160,7 +160,7 @@ body {
 
 /* блок-герой  */
 .hero-section {
-  background-image: url("images/welcome.jpg");
+  background-image: url("../images/welcome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #bcdfe4;
@@ -478,7 +478,7 @@ body {
 
 /* каталог; */
 .catalog-main-filter {
-  background-image: url("images/follow-background.jpg");
+  background-image: url("../images/follow-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
