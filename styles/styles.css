@@ -160,7 +160,7 @@ body {
 
 /* блок-герой  */
 .hero-section {
-  background-image: url("../images/welcome.jpg");
+  background-image: url("images/welcome.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #bcdfe4;
@@ -476,9 +476,9 @@ body {
   opacity: 0.3;
 }
 
-/* catalog */
+/* каталог; */
 .catalog-main-filter {
-  background-image: url("../images/follow-background.jpg");
+  background-image: url("images/follow-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -495,7 +495,7 @@ body {
   margin-bottom: 8px;
 }
 
-/* хлебные крошки */
+/* крошки */
 .breadcrumbs-list {
   font-size: 16px;
   display: flex;
@@ -529,13 +529,6 @@ body {
   flex-direction: row;
   gap: 9px;
 }
-
-/* форма */
-/* форма на флексах, нужно изменить margin 3ему fieldset
-.main-filter-form {
-  display: flex;
-  gap: 70px;
-} */
 
 .main-filter-form {
   display: grid;
@@ -647,7 +640,7 @@ body {
   padding: 8px 57px;
 }
 
-/* сортировка результатов */
+/* результаты */
 .catalog-main-results {
   padding: 50px 70px 60px;
 }
@@ -737,41 +730,6 @@ body {
 }
 
 /* карты гостиниц */
-
-/* раскладка карт на флексах
-.results-cards {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  gap: 18px 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.card {
-  width: 340px;
-  padding: 20px 19px;
-  border: 1px solid #e6e6e6;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-необходимо обернуть в дивы строки при флексах
-.hotel-price-row,
-.card-buttons-row,
-.card-rating-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-сперва изображение при флексах
-.card-image-link {
-  order: -1;
-} */
-
 .results-cards {
   list-style: none;
   display: grid;
@@ -923,4 +881,5 @@ body {
 .main-subscribe .subscribe-email {
   background-color: #f2f2f2;
 }
+	  
 	  
