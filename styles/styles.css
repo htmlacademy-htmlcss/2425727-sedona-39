@@ -290,7 +290,7 @@ body {
   margin-top: 0;
 }
 
-.reasons-title {
+.main-title {
   padding: 69px 90px;
   margin-bottom: 21px;
 }
@@ -417,11 +417,11 @@ body {
 }
 
 /* оформление плиток */
-.recomendation-list-item {
+.indication-list-item {
   background-repeat: no-repeat;
 }
 
-.recomendation-list-title::before {
+.indication-list-title::before {
   content: "";
   width: 75px;
   height: 72px;
@@ -431,26 +431,26 @@ body {
   background-position: center;
 }
 
-.recomendation-title-food::before {
+.indication-title-food::before {
   background-image: url("../images/food.svg");
 }
 
-.recomendation-title-housing::before {
+.indication-title-housing::before {
   background-image: url("../images/housing.svg");
 }
 
-.recomendation-title-gifts::before {
+.indication-title-gifts::before {
   background-image: url("../images/gifts.svg");
   width: 65px;
   height: 76px;
   margin: 0 auto 28px;
 }
 
-.recomendation-list-title {
+.indication-list-title {
   margin-bottom: 0;
 }
 
-.recomendation-text {
+.indication-text {
   padding: 80px 85px 81px;
   display: flex;
   flex-direction: column;
@@ -480,7 +480,7 @@ body {
   padding: 96px 258px 104px;
 }
 
-.special-main-subscribe {
+.main-subscribe {
   background-image: url("..images/follow-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -488,7 +488,7 @@ body {
   background-color: #999387;
 }
 
-.special-main-subscribe .main-title {
+.main-subscribe .main-title {
   color: #ffffff;
 }
 
@@ -558,20 +558,20 @@ body {
   transition: background-color 250ms ease-in-out;
 }
 
-.footer-social-vk::before {
+.footer-social-vkontakte::before {
   mask-image: url("../images/vkontakte.svg");
   width: 25px;
   height: 15px;
 }
 
-.footer-social-tg::before {
+.footer-social-telegram::before {
   mask-image: url("../images/telegram.svg");
   width: 18px;
   height: 17px;
   left: 15px;
 }
 
-.footer-social-yt::before {
+.footer-social-youtube::before {
   mask-image: url("../images/youtube.svg");
   width: 23px;
   height: 17px;
