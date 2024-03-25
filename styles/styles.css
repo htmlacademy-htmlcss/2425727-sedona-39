@@ -147,7 +147,7 @@ body {
 }
 
 .navigation-user-favorite::before {
-  mask-image: url("../images/favorite.svg");
+  mask-image: url("../images/vector.svg");
   width: 20px;
   height: 20px;
   top: 17px;
@@ -276,7 +276,7 @@ body {
   bottom: 0;
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* текст */
