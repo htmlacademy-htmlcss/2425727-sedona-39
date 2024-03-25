@@ -144,6 +144,7 @@ body {
   height: 19px;
   top: 18px;
   left: 13px;
+  background-size: cover;
 }
 
 .navigation-user-favorite::before {
