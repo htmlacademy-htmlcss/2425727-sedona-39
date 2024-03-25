@@ -144,11 +144,15 @@ body {
   height: 19px;
   top: 18px;
   left: 13px;
+}
 
 .navigation-user-favorite::before {
-  mask-image: url("../images/vector.svg");
+  mask-image: url("../images/favorite.svg");
   width: 20px;
   height: 20px;
+  top: 17px;
+  left: 12px;
+  background-size: cover;
 }
 
 .favorites-quantity {
@@ -1609,4 +1613,5 @@ body {
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
 }
+	  
 	  
