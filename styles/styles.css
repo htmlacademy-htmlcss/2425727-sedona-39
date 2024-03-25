@@ -139,19 +139,16 @@ body {
 }
 
 .navigation-user-search::before {
-mask-image: url("../images/vector.svg");
-width: 20px;
-height: 20px;
-padding: 2px 1px 1px 1px;
-gap: 0px;
-opacity: 0px;
+  mask-image: url("../images/search.svg");
+  width: 19px;
+  height: 19px;
+  top: 18px;
+  left: 13px;
 
 .navigation-user-favorite::before {
   mask-image: url("../images/vector.svg");
   width: 20px;
   height: 20px;
-  top: 17px;
-  left: 12px;
 }
 
 .favorites-quantity {
