@@ -483,11 +483,12 @@ body {
 }
 
 .main-subscribe {
-  background-image: url("..images/follow-background.jpg");
+  background-image: url("../images/follow-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
-  background-color: #999387;
+  background-color: #6b7577;
+  padding: 35px 70px 70px;
 }
 
 .main-subscribe .main-title {
