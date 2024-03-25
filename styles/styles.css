@@ -142,8 +142,9 @@ body {
   mask-image: url("../images/search.svg");
   width: 19px;
   height: 19px;
-  top: 18px;
-  left: 13px;
+  top: 17px;
+  left: 12px;
+  mask-repeat: no-repeat;
 }
 
 .navigation-user-favorite::before {
