@@ -1,4 +1,5 @@
-@font-face {
+
+	 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-style: normal;
@@ -1316,6 +1317,16 @@ body {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.main-subscriber {
+  text-align: center
+}
+
+.main-subscriber {
+  padding: 96px 258px 104px;
+}
+
+
+
 /* модальное окно */
 .modal-container {
   position: fixed;
@@ -1612,6 +1623,4 @@ body {
 .tooltip-toggle:hover + .tooltip-text,
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
-}
-	  
-	  
+} 
