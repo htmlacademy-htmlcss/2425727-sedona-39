@@ -142,7 +142,7 @@ body {
   mask-image: url("../images/search.svg");
   width: 20px;
   height: 20px;
-  top: 17px;
+  top: 18px;
   left: 13px;
 }
 
@@ -150,7 +150,7 @@ body {
   mask-image: url("../images/favorite.svg");
   width: 20px;
   height: 21px;
-  top: 18px;
+  top: 19px;
   left: 12px;
   mask-repeat: no-repeat;
 }
