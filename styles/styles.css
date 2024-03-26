@@ -140,7 +140,7 @@ body {
 
 .navigation-user-search::before {
   mask-image: url("../images/search.svg");
-  width: 18px;
+  width: 19px;
   height: 19px;
   top: 17px;
   left: 13px;
@@ -150,7 +150,7 @@ body {
   mask-image: url("../images/favorite.svg");
   width: 19px;
   height: 20px;
-  top: 16px;
+  top: 18px;
   left: 12px;
   mask-repeat: no-repeat;
 }
