@@ -152,6 +152,7 @@ body {
   height: 20px;
   top: 17px;
   left: 12px;
+  mask-repeat: no-repeat;
 }
 
 .favorites-quantity {
