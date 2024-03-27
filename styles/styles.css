@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-style: normal;
@@ -64,7 +64,7 @@ body {
 }
 
 /* навигация  */
-.header_navigation {
+.header-navigation {
   display: flex;
   padding: 0 70px;
   gap: 28px;
@@ -140,8 +140,8 @@ body {
 
 .navigation-user-search::before {
   mask-image: url("../images/search.svg");
-  width: 19px;
-  height: 19px;
+  width: 20px;
+  height: 20px;
   top: 18px;
   left: 13px;
 }
@@ -149,9 +149,10 @@ body {
 .navigation-user-favorite::before {
   mask-image: url("../images/favorite.svg");
   width: 20px;
-  height: 20px;
-  top: 17px;
+  height: 21px;
+  top: 20px;
   left: 12px;
+  mask-repeat: no-repeat;
 }
 
 .favorites-quantity {
@@ -276,7 +277,7 @@ body {
   bottom: 0;
   background-image: url("../images/divider.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 /* текст */
